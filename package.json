@@ -1,0 +1,20 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "\"graphQL learning project\"",
+  "main": "serve.js",
+  "scripts": {
+    "start": "nodemon serve.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"Ahad khan\"",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.4.0",
+    "mongoose": "^6.3.3",
+    "nodemon": "^2.0.16"
+  }
+}
